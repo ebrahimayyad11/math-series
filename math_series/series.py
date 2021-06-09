@@ -1,4 +1,13 @@
 def fibonacci(n):
+    '''description for the function
+
+    parameters: 
+    n(int)
+
+    returns:
+    int: returning value
+
+    '''
     if n == 0:
         return 0
     elif n == 1:
@@ -9,6 +18,15 @@ def fibonacci(n):
 
 
 def lucas(n):
+    '''description for the function
+
+    parameters: 
+    n(int)
+
+    returns:
+    int: returning value
+     
+    '''
     if n == 0:
         return 2
     elif n == 1:
@@ -19,6 +37,17 @@ def lucas(n):
 
 
 def sum_series(n,x = 0,y = 1):
+    '''description for the function
+
+    parameters: 
+    n(int)
+    x(int)
+    y(int)
+
+    returns:
+    int: returning value
+     
+    '''
     if x == 0 and y == 1:
         return fibonacci(n)
     elif x == 2 and y == 1:
